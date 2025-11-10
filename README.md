@@ -28,7 +28,7 @@ Key features include:
 
 🌟 **[2025-11-07]** [EASI v0.1.0]() is released. Major updates include:
 - Supports 7 recent Spatial Intelligence models:
-    - SenseSI Family: [SenseSI-InternVL3-8B](https://huggingface.co/sensenova/SenseSI-InternVL3-8B), [SenseSI-InternVL3-2B](https://huggingface.co/sensenova/SenseSI-InternVL3-2B)
+    - SenseNova-SI Family: [SenseNova-SI-InternVL3-8B](https://huggingface.co/sensenova/SenseNova-SI-InternVL3-8B), [SenseNova-SI-InternVL3-2B](https://huggingface.co/collections/sensenova/sensenova-si)
     - MindCube Family: [MindCube-3B-RawQA-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-RawQA-SFT), [MindCube-3B-Aug-CGMap-FFR-Out-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-Aug-CGMap-FFR-Out-SFT),[MindCube-3B-Plain-CGMap-FFR-Out-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-Plain-CGMap-FFR-Out-SFT)
     - SpatialLadder: [SpatialLadder-3B](https://huggingface.co/hongxingli/SpatialLadder-3B)
     - SpatialMLLM: [SpatialMLLM-4B](https://diankun-wu.github.io/Spatial-MLLM/)
@@ -71,11 +71,11 @@ See `run.py` for the full list of arguments.
 
 **Example** 
 
-Evaluate `SenseSI-InternVL3-2B` on `MindCubeBench_tiny_raw_qa`:
+Evaluate `SenseNova-SI-InternVL3-2B` on `MindCubeBench_tiny_raw_qa`:
 
 ```bash
 python run.py --data MindCubeBench_tiny_raw_qa \
-              --model SenseSI-InternVL3-2B \
+              --model SenseNova-SI-InternVL3-2B \
               --verbose --reuse
 ```
 

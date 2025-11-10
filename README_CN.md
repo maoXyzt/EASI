@@ -28,7 +28,7 @@ EASI 构建了一个全面的空间任务分类体系，制定了一套标准化
 🌟 [2025-11-07] [EASI v0.1.0]() 发布。主要更新包括：
 
 - 支持 7 个最新的空间智能模型：
-    - SenseSI系列: [SenseSI-InternVL3-8B](https://huggingface.co/sensenova/SenseSI-InternVL3-8B), [SenseSI-InternVL3-2B](https://huggingface.co/sensenova/SenseSI-InternVL3-2B)
+    - SenseNova-SI系列: [SenseNova-SI-InternVL3-8B](https://huggingface.co/sensenova/SenseNova-SI-InternVL3-8B), [SenseNova-SI-InternVL3-2B](https://huggingface.co/collections/sensenova/sensenova-si)
     - MindCube系列: [MindCube-3B-RawQA-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-RawQA-SFT), [MindCube-3B-Aug-CGMap-FFR-Out-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-Aug-CGMap-FFR-Out-SFT),[MindCube-3B-Plain-CGMap-FFR-Out-SFT](https://huggingface.co/MLL-Lab/MindCube-Qwen2.5VL-Plain-CGMap-FFR-Out-SFT)
     - SpatialLadder: [SpatialLadder-3B](https://huggingface.co/hongxingli/SpatialLadder-3B)
     - SpatialMLLM: [SpatialMLLM-4B](https://diankun-wu.github.io/Spatial-MLLM/)
@@ -71,11 +71,11 @@ python run.py --data {BENCHMARK_NAME} --model {MODEL_NAME} --verbose --reuse
 
 **示例**
 
-在 `MindCubeBench_tiny_raw_qa` 上评测 `SenseSI-InternVL3-2B`：
+在 `MindCubeBench_tiny_raw_qa` 上评测 `SenseNova-SI-InternVL3-2B`：
 
 ```bash
 python run.py --data MindCubeBench_tiny_raw_qa \
-              --model SenseSI-InternVL3-2B \
+              --model SenseNova-SI-InternVL3-2B \
               --verbose --reuse
 ```
 
